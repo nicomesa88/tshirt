@@ -26,13 +26,24 @@ body {
     height: 100%;
     float: left;
     position: relative;
-    display: block;
+    display: flex;
     cursor: pointer;
     font-size: 14px;
     /*display: inline-block;
     vertical-align: top;*/
     color:lightblue;
     border: 3px solid lightblue;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+}
+
+.fa:hover {
+    background: darkblue;
+    color: white;
 }
 
 .purchaseOptBox p {
@@ -42,15 +53,30 @@ body {
     color: lightblue;
     float: left;
     border: 3px solid lightblue;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 15px;
 }
+
+.purchaseOptBox p:hover {
+    background: darkblue;
+    color: white;
+}
+
+
 
 
 .purchaseOptBox {
     width: 100%;
     height: 60px;
     border: 3px solid lightblue;
-    /*display: inline-block;*/
-
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .shirtContainer {
@@ -89,4 +115,14 @@ span {
     border: 3px solid lightblue;
     cursor: pointer;
     color: lightblue;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+span:hover {
+    background: darkblue;
+    color: white;
 }
