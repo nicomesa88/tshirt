@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*font-size: 0;*/
+  font-family: Helvetica, Arial, sans-serif;
+  max-width: 98%;
+  text-align: center;
+  vertical-align: top;
+
+}
+
+/*.fa-heart-o {
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+}*/
+
+.fa {
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    /*display: inline-block;
+    vertical-align: top;*/
+    color:lightblue;
+    border: 3px solid lightblue;
+}
+
+.purchaseOptBox p {
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    color: lightblue;
+    float: left;
+    border: 3px solid lightblue;
+}
+
+
+.purchaseOptBox {
+    width: 100%;
+    height: 60px;
+    border: 3px solid lightblue;
+    /*display: inline-block;*/
+
+}
+
+.shirtContainer {
+    max-width: 100%;
+    display: inline-block;
+    border: 3px solid lightblue;
+    padding: 20px 2% 50px 2%;
+    position: relative;
+    vertical-align: top;
+}
+
+.shirtDisc {
+
+}
+
+.shirtDisc p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:lightblue;
+}
+
+
+.tshirtCol {
+    display: inline-block;
+    padding: 1%;
+}
+
+.shirtContainer img {
+    max-width: 100%;
+}
+
+span {
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 3px solid lightblue;
+    cursor: pointer;
+    color: lightblue;
+}
