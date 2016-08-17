@@ -1,63 +1,186 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel=stylesheet type=text/css href=styles/style.css>
+    <script src="https://use.fontawesome.com/a7ab802f5c.js"></script>
 </head>
-
 <body>
 
-<div class = "tshirtCol">
-    <div class = 'shirtContainer'>
-    <img src="http://tympanus.net/Blueprints/ProductGridLayout/images/1_front.png">
+    <div>
+        <h1>Responsive Product Grid</h1>
+        <p class="center"><a href="alt.html">Click here for alternate version</a></p>
     </div>
-    <div class = 'purchaseOptBox'>
-        <i class="fa fa-refresh" aria-hidden="true"></i>
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
-        <p>XL</p>
-        <span>Blue</span>
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-    </div>
-    <div class = 'shirtDisc'>
-    <p>Save my trees</p>
-    </div>
-</div>
 
-<div class = "tshirtCol">
-    <div class = 'shirtContainer'>
-    <img src="http://tympanus.net/Blueprints/ProductGridLayout/images/2_front.png">
-    </div>
-    <div class = 'purchaseOptBox'>
-        <i class="fa fa-refresh" aria-hidden="true"></i>
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
-        <p>XL</p>
-        <span>Pink</span>
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-    </div>
-    <div class = 'shirtDisc'>
-        <p>Nature Lover</p>
-    </div>
-</div>
+    <!-- t-shirt block inline-block outter wrapper start -->
+    <div class="product-wrapper">
+        <div class="tshirt-block">
+            <div class="tshirt-thumbnail-wrapper">
 
-<div class = "tshirtCol">
-    <div class = 'shirtContainer'>
-    <img src="http://tympanus.net/Blueprints/ProductGridLayout/images/3_front.png">
-    </div>
-    <div class = 'purchaseOptBox'>
-        <i class="fa fa-refresh" aria-hidden="true"></i>
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
-        <p>XL</p>
-        <span>Orange</span>
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-    </div>
-    <div class = 'shirtDisc'>
-        <p>Forrest Walk</p>
-    </div>
-</div>
+                <label for="flip">View Back</label>
+                <input type="checkbox" value="flip" class="flip-image-trigger"/>
 
-<script type="text/javascript" src ="js/script.js"></script>
+                <div class="thumbnail">
+                    <img class="front side" src="http://tympanus.net/Blueprints/ProductGridLayout/images/1_front.png">
+                    <img class="back face" src="http://tympanus.net/Blueprints/ProductGridLayout/images/1_back.png">
+                </div>
+
+            </div>
+
+            <div class="icon-row">
+
+                <div class="icon">
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="icon sizes">
+                    <span>XL</span>
+                </div>
+
+                <!-- Sizes picker block on hover -->
+                <div class="sizes-picker pointer">
+                    <img src="images/shirt-sizes.jpg" alt="T-shirt size options" />
+                </div>
+
+                <div class="icon color">
+                    <i class="fa fa-stop fa-lg" id="blue" aria-hidden="true"></i>
+                </div>
+
+                <!-- Color picker block on hover -->
+                <div class="color-picker pointer">
+                    <img src="images/color-swatches.jpg" alt="T-shirt color swatches options" />
+                </div>
+
+                <div class="icon">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="product-info">
+                <h2>Save my trees</h2>
+                <span class="price">$29</span>
+        </div>
+
+    </div><!-- t-shirt inline-block wrapper end -->
+
+
+    <!-- t-shirt block inline-block outter wrapper start -->
+    <div class="product-wrapper">
+        <div class="tshirt-block">
+            <div class="tshirt-thumbnail-wrapper">
+
+                <label for="flip">View Back</label>
+                <input type="checkbox" value="flip" class="flip-image-trigger"/>
+
+                <div class="thumbnail">
+                    <img class="front side" src="http://tympanus.net/Blueprints/ProductGridLayout/images/2_front.png">
+                    <img class="back face" src="http://tympanus.net/Blueprints/ProductGridLayout/images/2_back.png">
+                </div>
+
+            </div>
+
+            <div class="icon-row">
+
+                <div class="icon">
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="icon sizes">
+                    <span>XL</span>
+                </div>
+
+                <!-- Sizes picker block on hover -->
+                <div class="sizes-picker pointer">
+                    <img src="images/shirt-sizes.jpg" alt="T-shirt size options" />
+                </div>
+
+                <div class="icon color">
+                    <i class="fa fa-stop fa-lg" id="pink" aria-hidden="true"></i>
+                </div>
+
+                <!-- Color picker block on hover -->
+                <div class="color-picker pointer">
+                    <img src="images/color-swatches.jpg" alt="T-shirt color swatches options" />
+                </div>
+
+                <div class="icon">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="product-info">
+                <h2>Nature lover</h2>
+                <span class="price">$19</span>
+        </div>
+
+    </div><!-- t-shirt inline-block wrapper end -->
+
+    <!-- t-shirt block inline-block outter wrapper start -->
+    <div class="product-wrapper">
+        <div class="tshirt-block">
+            <div class="tshirt-thumbnail-wrapper">
+
+                <label for="flip">View Back</label>
+                <input type="checkbox" value="flip" class="flip-image-trigger"/>
+
+                <div class="thumbnail">
+                    <img class="front side" src="http://tympanus.net/Blueprints/ProductGridLayout/images/3_front.png">
+                    <img class="back face" src="http://tympanus.net/Blueprints/ProductGridLayout/images/3_back.png">
+                </div>
+
+            </div>
+
+            <div class="icon-row">
+
+                <div class="icon">
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="icon sizes">
+                    <span>XL</span>
+                </div>
+
+                <!-- Sizes picker block on hover -->
+                <div class="sizes-picker pointer">
+                    <img src="images/shirt-sizes.jpg" alt="T-shirt size options" />
+                </div>
+
+                <div class="icon color">
+                    <i class="fa fa-stop fa-lg" id="yellow" aria-hidden="true"></i>
+                </div>
+
+                <!-- Color picker block on hover -->
+                <div class="color-picker pointer">
+                    <img src="images/color-swatches.jpg" alt="T-shirt color swatches options" />
+                </div>
+
+                <div class="icon">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="product-info">
+                <h2>Forrest Walker</h2>
+                <span class="price">$39</span>
+        </div>
+
+    </div><!-- t-shirt inline-block wrapper end -->
+
+<script type=text/javascript src=js/script.js></script>
 </body>
-
 </html>
